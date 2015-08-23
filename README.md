@@ -1,5 +1,10 @@
 # Ember-experiments
 
+[![MIT License](https://img.shields.io/github/license/rxlabs/ember-experiments.svg)](./LICENSE.txt)
+[![Dependency Status](https://img.shields.io/gemnasium/rxlabs/ember-experiments.svg)](https://gemnasium.com/rxlabs/ember-experiments)
+[![Development Dependency Status](https://img.shields.io/david/dev/rxlabs/ember-experiments.svg)](https://david-dm.org/rxlabs/ember-experiments#info=devDependencies)
+[![Build Status](https://img.shields.io/travis/rxlabs/ember-experiments.svg)](https://travis-ci.org/rxlabs/ember-experiments)
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
