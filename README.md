@@ -51,3 +51,13 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## License
+
+This CoffeeScript package is licensed under the MIT license.
+
+## Warranty
+
+This software is provided "as is" and without any express or
+implied warranties, including, without limitation, the implied
+warranties of merchantibility and fitness for a particular
+purpose.
