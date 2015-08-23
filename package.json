@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "ember build",
+    "install": "bower install",
     "start": "ember server",
     "test": "ember test"
   },
