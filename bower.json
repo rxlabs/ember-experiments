@@ -12,6 +12,7 @@
     "jquery": "^2.1.4",
     "loader.js": "ember-cli/loader.js#3.3.0",
     "normalize-css": "~3.0.3",
+    "paper-button": "PolymerElements/paper-button#~1.0.3",
     "qunit": "~1.18.0",
     "webfontloader": "~1.6.6"
   }

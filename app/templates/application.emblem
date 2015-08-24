@@ -1,3 +1,5 @@
 h2#title Welcome to Ember
 
+%paper-button raised=true Press Me
+
 outlet
