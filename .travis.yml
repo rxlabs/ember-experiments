@@ -7,6 +7,3 @@ cache:
     - bower_components
     - node_modules
 sudo: false
-
-before_install:
-  - export PATH=/usr/local/phantomjs-2.0.0/bin:$PATH
