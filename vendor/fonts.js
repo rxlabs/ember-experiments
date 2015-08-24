@@ -1,3 +1,10 @@
 'use strict';
 
-WebFont.load();
+WebFont.load({
+  google: {
+    families: [
+      'Roboto',
+      'Roboto+Slab'
+    ]
+  }
+});
