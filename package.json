@@ -11,7 +11,8 @@
     "build": "ember build",
     "install": "bower install",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "watch": "ember test --server"
   },
   "repository": "",
   "engines": {
