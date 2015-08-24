@@ -1,6 +1,7 @@
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 var Funnel = require('broccoli-funnel');
+var Vulcanize = require('broccoli-vulcanize');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
@@ -30,5 +31,25 @@ module.exports = function(defaults) {
     include: ['webfontloader.js']
   });
 
-  return app.toTree(webfontloader);
+  webcomponents = new Funnel('bower_components/webcomponentsjs', {
+    destDir: '/vendor/webcomponentsjs',
+    include: ['webcomponents.js']
+  });
+
+  vulcanized = Vulcanize('app', {
+    input: 'elements.html',
+    output: 'assets/vulcanized.html',
+    stripExcludes: false,
+    stripComments: false,
+    inlineScripts: false,
+    inlineCss: true,
+    implicitStrip: false,
+    excludes: [/^data:/, /^http[s]?:/]
+  });
+
+  return app.toTree([
+    webfontloader,
+    webcomponents,
+    vulcanized
+  ]);
 };
