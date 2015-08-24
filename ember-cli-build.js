@@ -1,9 +1,13 @@
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
+var Funnel = require('broccoli-funnel');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
+    inlineContent: {
+      'fonts': 'vendor/fonts.js'
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
@@ -21,5 +25,10 @@ module.exports = function(defaults) {
 
   app.import('bower_components/normalize-css/normalize.css');
 
-  return app.toTree();
+  webfontloader = new Funnel('bower_components/webfontloader', {
+    destDir: '/vendor/webfontloader',
+    include: ['webfontloader.js']
+  });
+
+  return app.toTree(webfontloader);
 };
