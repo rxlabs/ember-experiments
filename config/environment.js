@@ -7,9 +7,6 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
-    contentSecurityPolicy: {
-      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com"
-    },
     firebase: 'https://rx-ember-experiments.firebaseio.com/',
     EmberENV: {
       FEATURES: {
@@ -31,6 +28,7 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
     ENV.contentSecurityPolicy = {
+      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com",
       'script-src': "'self' 'unsafe-inline'",
       'font-src': "'self' http://fonts.gstatic.com",
       'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com"
