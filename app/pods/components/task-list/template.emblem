@@ -1,0 +1,2 @@
+each tasks as task
+  task-item task=task
