@@ -7,4 +7,3 @@ cache:
     - bower_components
     - node_modules
 sudo: false
-before_install: rm npm-shrinkwrap.json
