@@ -1,4 +1,4 @@
-# Ember-experiments
+# Ember experiments
 
 [![MIT License](https://img.shields.io/github/license/rxlabs/ember-experiments.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/rxlabs/ember-experiments.svg)](https://gemnasium.com/rxlabs/ember-experiments)
@@ -8,6 +8,11 @@
 ## Description
 
 Initial experiments building a modern Ember 2 app.
+
+Production branch hosted at
+[rxlabs.github.io/ember-experiments].
+
+[rxlabs.github.io/ember-experiments]: https://rxlabs.github.io/ember-experiments/
 
 ## License
 
