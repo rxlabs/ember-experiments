@@ -58,7 +58,7 @@ Specify what it takes to deploy your app.
 
 ## License
 
-This CoffeeScript package is licensed under the MIT license.
+This Ember app is licensed under the MIT license.
 
 ## Warranty
 
