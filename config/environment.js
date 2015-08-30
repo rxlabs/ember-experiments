@@ -48,7 +48,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/ember-experiments',
+    ENV.locationType = 'hash'
   }
 
   return ENV;
