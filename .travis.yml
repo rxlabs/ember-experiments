@@ -7,3 +7,8 @@ cache:
     - bower_components
     - node_modules
 sudo: false
+
+install:
+  - npm prune
+  - npm update
+  - npm install
