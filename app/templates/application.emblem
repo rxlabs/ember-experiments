@@ -3,6 +3,6 @@ h2#title Welcome to Ember
 outlet
 
 footer
-  p.item.fa.fa-github
     a href='https://github.com/rxlabs/ember-experiments'
+      span.item.fa.fa-github
       | Source on GitHub
