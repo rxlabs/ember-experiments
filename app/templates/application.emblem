@@ -2,6 +2,11 @@ h1#title
   link-to 'index'
     = t 'global.title'
 
+nav: ul.list-inline
+  li: button.btn.btn-default: a href='/tasks'
+    span.item.fa.fa-tasks
+    | Tasks
+
 outlet
 
 footer
