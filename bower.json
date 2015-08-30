@@ -1,6 +1,7 @@
 {
   "name": "ember-experiments",
   "dependencies": {
+    "bootstrap": "4.0.0-alpha",
     "ember": "2.0.1",
     "ember-cli-shims": "ember-cli/ember-cli-shims#0.0.4",
     "ember-cli-test-loader": "ember-cli-test-loader#0.2.0",
@@ -12,7 +13,6 @@
     "firebase": "2.1.0",
     "jquery": "2.1.4",
     "loader.js": "ember-cli/loader.js#3.3.0",
-    "normalize-css": "3.0.3",
     "qunit": "1.18.0",
     "webcomponentsjs": "0.7.12",
     "webfontloader": "1.6.6"
