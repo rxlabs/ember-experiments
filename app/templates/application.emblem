@@ -3,9 +3,10 @@ h1#title
     = t 'global.title'
 
 nav: ul.list-inline
-  li: button.btn.btn-default: a href='/tasks'
-    span.item.fa.fa-tasks
-    | Tasks
+  li: button.btn.btn-default
+    link-to 'tasks'
+      span.item.fa.fa-tasks
+      | Tasks
 
 outlet
 
