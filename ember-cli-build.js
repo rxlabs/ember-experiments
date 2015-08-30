@@ -13,6 +13,7 @@ module.exports = function(defaults) {
     },
     inlineContent: {
       'meta': 'app/meta.html',
+      'favicon': 'app/favicon.html',
       'fonts': 'vendor/fonts.js'
     }
   });
