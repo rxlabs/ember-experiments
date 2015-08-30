@@ -48,8 +48,11 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '/ember-experiments',
-    ENV.locationType = 'hash'
+    ENV.baseURL = '/ember-experiments';
+    ENV.locationType = 'hash';
+    ENV.googleAnalytics = {
+      webPropertyId: 'UA-19631381-7'
+    };
   }
 
   return ENV;
