@@ -12,6 +12,7 @@ module.exports = function(defaults) {
       ]
     },
     inlineContent: {
+      'meta': 'app/meta.html',
       'fonts': 'vendor/fonts.js'
     }
   });
