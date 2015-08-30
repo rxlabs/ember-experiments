@@ -30,8 +30,8 @@ module.exports = function(environment) {
     ENV.contentSecurityPolicy = {
       'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com",
       'script-src': "'self' 'unsafe-inline'",
-      'font-src': "'self' http://fonts.gstatic.com",
-      'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com"
+      'font-src': "'self' http://fonts.gstatic.com https://maxcdn.bootstrapcdn.com",
+      'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com https://maxcdn.bootstrapcdn.com"
     };
   }
 
