@@ -1,9 +1,10 @@
 h1#title
-  link-to 'index' | Welcome to Ember
+  link-to 'index'
+    = t 'global.title'
 
 outlet
 
 footer
     a href='https://github.com/rxlabs/ember-experiments'
       span.item.fa.fa-github
-      | Source on GitHub
+      = t 'global.source'
