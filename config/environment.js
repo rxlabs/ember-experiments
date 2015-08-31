@@ -8,6 +8,9 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     firebase: 'https://rx-ember-experiments.firebaseio.com/',
+    torii: {
+      sessionServiceName: 'session'
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
