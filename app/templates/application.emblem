@@ -7,7 +7,7 @@ nav: ul.list-inline
     link-to 'tasks'
       button.btn.btn-default
         span.item.fa.fa-tasks
-        | Tasks
+        = t 'tasks.title'
 
 outlet
 
